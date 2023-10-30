@@ -32,7 +32,7 @@ while True:
         note = Note(name + '.csv')
         kk = input('Хотите сразу добавить текст? (введите да/нет) ')
         if kk == "да":
-            note.addText(input('Введите текст заметки через '))
+            note.addText(input('Введите текст заметки'))
         Note_list.append(note)
     elif k == '2':
         n = input('Введите название заметки ')
